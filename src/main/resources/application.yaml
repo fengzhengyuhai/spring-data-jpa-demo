@@ -12,6 +12,9 @@ spring:
         ## 数据源懒加载
         bootstrap-mode: deferred
   datasource:
+    url: jdbc:mysql://192.168.6.53:3306/good_good_study?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=GMT%2b8&sessionVariables=group_concat_max_len=999999
+    usename: root
+    password: root2021
     hikari:
       connection-test-query: SELECT 1
   jackson:
